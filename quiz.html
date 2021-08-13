@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="pra.jpg" type="image/icon type">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<title>Quiz test of you</title>
+</head>
+<body id="sjio">
+<center><font id="h11">#Quiz_Test_Challenge</font></center>
+<button class="dif-levels" onclick="easy()" id="easy">Easy</button>
+<button class="dif-levels" onclick="normal()" id="normal">Normal</button>
+<button class="dif-levels" onclick="hard()" id="hard">Hard</button>
+
+<div id="loading"></div>
+<div id="loader-fect">
+	<h1 id="test"></h1>
+</div>
+
+
+<div id="matter">
+	<font class="mat" id="matter-ques-1"></font>
+	<br>
+	<input type="text" id="matter-ans-1">
+	<br>
+	<font class="mat" id="matter-ques-2"></font>
+	<br>
+	<input type="text" id="matter-ans-2">
+	<br>
+	<font class="mat" id="matter-ques-3"></font>
+	<br>
+	<input type="text" id="matter-ans-3">
+	<br>
+	<font class="mat" id="matter-ques-4"></font>
+	<br>
+	<input type="text" id="matter-ans-4">
+	<br>
+	<font class="mat" id="matter-ques-5"></font>
+	<br>
+	<input type="text" id="matter-ans-5">
+	<br>
+	<button onclick="done()">Submit!</button>
+</div>
+<div class="result" id="result">
+	<font class="mat">Result:</font>
+	<span id="rel-percen"></span>
+	<BR>
+	<span id="view" class="mat"></span>
+	<img src="baloons.gif" id="immg">
+</div>
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
